@@ -81,8 +81,7 @@ def test():
 			import socket
 
 			p = int(input('port:'))
-			ip = '81.169.145.165' 
-			#input('ip:')
+			ip =  input('ip:')
 			a = 0
 			sent = 0
 			sr = input('Message:')
