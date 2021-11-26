@@ -85,7 +85,7 @@ def test():
 			#input('ip:')
 			a = 0
 			sent = 0
-			sr = input('Message:') #'Halloherrhoefler'
+			sr = input('Message:')
 			sock = socket(AF_INET, SOCK_DGRAM)
 			bytes = sr.encode('utf-8')
 			while True:
